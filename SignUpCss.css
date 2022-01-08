@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.zaglavlje img {
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    color: white;
+
+}
+#nalog a{
+    text-decoration: none;
+    padding-right: 5px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#nalog {
+    text-align: right;
+    margin: 0;
+    background-color: darkred;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    float:none;
+}
+
+.zaglavlje {
+}
+
+.naslov {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+/*Sign up*/
+.v-line {
+    background-color: #ccc;
+    width: 1px;
+    margin: auto;
+    display: block;
+    height: 20rem;
+}
+
+.sign-up-container {
+    height: 50vh;
+    display: flex;
+
+}
+
+.sign-up-form {
+    flex-grow: 1;
+    height: 50vh;
+    margin-left: 5vw;
+}
+
+.separator{
+    margin-right: 10px;
+}
+.social-media{
+    flex-grow: 1;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 5vw;
+    margin-top: 30px;
+}
+.social-media button {
+    margin: 10px;
+    width: 400px;
+}
+table {
+    margin: auto;
+    margin-top: 30px;
+}
+td {
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        float:none;
+    }
+    .separator {
+        display: none;
+    }
+}
