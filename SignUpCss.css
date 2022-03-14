@@ -106,12 +106,16 @@ html, body {
         height: 3px;
         width: 100%;
         text-align: center;
+		position:static;
     }
     .v-line {
         margin: 0 auto;
         height: 2px;
         width: 18rem;
     }
+	.social-media {
+		position: static;
+	}
     .social-media +button {
         margin-top: 0px;
     }
