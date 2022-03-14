@@ -109,7 +109,7 @@ html, body {
         text-align: center;
     }
     .v-line {
-        background-color: purple;
+        background-color: red;
         margin: 0 auto;
         height: 2px;
         width: 18rem;
