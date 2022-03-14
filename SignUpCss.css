@@ -98,6 +98,7 @@ html, body {
 @media only screen and (max-width: 767px) {
     body {
         width: 100%;
+        position: relative;
     }
     .sign-up-form {
         height: 65vh;
@@ -106,18 +107,16 @@ html, body {
         height: 3px;
         width: 100%;
         text-align: center;
+        position: fixed;
     }
     .v-line {
-        background-color: blue;
+        background-color: purple;
         margin: 0 auto;
         height: 2px;
         width: 18rem;
     }
+    .social-media { position: fixed; }
     .social-media +button {
         margin-top: 0px;
     }
-    .container {
-        overflow-y: visible;
-    }
-
 }
