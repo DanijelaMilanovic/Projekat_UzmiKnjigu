@@ -16,8 +16,13 @@ input {
 }
 input:focus ~ .input-label{
     font-size: 16px;
-    color: #4285f4;
+    color: #001479;
     transition: 0.2s ease-in-out;
 }
 
+.form-control:focus {
+    border-color: rgba(204, 204, 204);
+    box-shadow: 0 1px 1px rgb(204, 204, 204) inset, 0 0px 8px rgba(204, 204, 204, 0.8);
+    outline: 0 none;
+}
 
