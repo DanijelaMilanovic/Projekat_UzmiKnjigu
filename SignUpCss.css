@@ -44,7 +44,7 @@ html, body {
     text-align: center;
     font-weight: bold;
     color: #001479;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 30px;
 }
 /*Sign up*/
@@ -107,7 +107,6 @@ html, body {
         height: 3px;
         width: 100%;
         text-align: center;
-        position: fixed;
     }
     .v-line {
         background-color: purple;
@@ -115,7 +114,6 @@ html, body {
         height: 2px;
         width: 18rem;
     }
-    .social-media { position: fixed; }
     .social-media +button {
         margin-top: 0px;
     }
