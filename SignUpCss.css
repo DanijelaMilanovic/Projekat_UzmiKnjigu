@@ -106,7 +106,7 @@ html, body {
         text-align: center;
     }
     .v-line {
-        background-color: aqua;
+        background-color: black;
         margin: 0 auto;
         height: 2px;
         width: 18rem;
