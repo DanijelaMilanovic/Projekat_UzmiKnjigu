@@ -107,7 +107,7 @@ html, body {
         text-align: center;
     }
     .v-line {
-        background-color: red;
+        background-color: rgb(225, 0, 255);
         margin: 0 auto;
         height: 2px;
         width: 18rem;
