@@ -116,5 +116,8 @@ html, body {
     .social-media +button {
         margin-top: 0px;
     }
+    .container {
+        overflow-y: visible;
+    }
 
 }
