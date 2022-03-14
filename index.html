@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="SignUpCss.css">
     <link rel="stylesheet" href="floatingLabel.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>UzmiKnjigu</title>
 </head>
@@ -93,6 +95,12 @@
     form.addEventListener('submit', function (e) {
         e.preventDefault();
     });
+	
+	$(function() {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    $("html, body").css({"width":w,"height":h});
+});
 </script>
 </body>
 </html>
